@@ -14,7 +14,7 @@ Some ideas on reversing a hough transformation (done in Matlab)
 
 for changing the image: 
 
-```
+```Matlab
 im1 = imread('../images/im1.png');
 im2 = imread('../images/im2.png');
 im3 = imread('../images/im3.png');
@@ -46,7 +46,7 @@ only **work_img** is used in the script.
 - bring confidence value in range 0-255
 - set this value into the empty "original" image (*orig_img*)
 
-```
+```Matlab
 orig_img = zeros(orig_size);
     
 C = (orig_size')/2;
